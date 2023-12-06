@@ -1,0 +1,9 @@
+.equipment__items {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+    margin-bottom: 50px;
+}

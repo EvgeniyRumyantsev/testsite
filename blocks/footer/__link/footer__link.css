@@ -1,0 +1,9 @@
+.footer__link {
+    text-decoration: none;
+    color: #c8c8c8
+}
+
+.footer__link:hover {
+    color: white;
+    text-decoration: underline;
+}

@@ -1,0 +1,21 @@
+.equipment__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    height: auto;
+}
+
+@media screen and (max-width: 815px) {
+    .equipment__card {
+        width: 40%;
+        /* background-color: red; */
+    }    
+}
+
+@media screen and (max-width: 400px) {
+    .equipment__card {
+        width: 80%;
+        /* background-color: red; */
+    }    
+}

@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./pages/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Oswald:wght@300;400;600&display=swap" rel="stylesheet">
+  </head>
+  <body class="body body__work">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary " data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="./img/logo.png" class="navbar-brand__logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="about-us.html">Наше оборудование</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about-us.html#cam">Камеры</a></li>
+                  <li><a class="dropdown-item" href="about-us.html#light">Свет</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="about-us.html#sound">Звук</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle active" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="about-us.html">Наше портфолио</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#serials">Сериалы</a></li>
+                  <li><a class="dropdown-item" href="#films">Фильмы</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="buy.html">
+                  Купить услугу
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <main class="work">
+        <h1 class="work__title" id="serials">Сериалы</h1>
+        <section class="portfolio">
+          <article class="portfolio__item"> 
+            <h2 class="portfolio__item_title">Слово Пацана</h2> 
+            <div class="portfolio__item_website"> 
+                <p class="portfolio__item_url-heading">url</p> 
+                <a class="portfolio__item_link" href="https://www.kinopoisk.ru/series/5304403/">Кинопоиск</a> 
+            </div> 
+            <img class="portfolio__item_image" src="./img/slovo-pacan.png"> 
+            <div> 
+                <p class="portfolio__item_paragraph">Конец 1980-х. Пока родители борются за выживание, брошенные всеми дети сбиваются в уличные стаи и бьются за асфальт. Буквально, чтобы контролировать всё, что стоит на «их» земле или передвигается по ней. Среди всеобщей нищеты — понятные правила жизни, поддержка и слово пацана, которое сильнее клятвы.</p>
+                <p class="portfolio__item_paragraph">14-летний Андрей из интеллигентной семьи, он учится в музыкальной школе и живёт с мамой и пятилетней сестрой. Парень регулярно сталкивается с прессингом уличных подростков и, чтобы защититься, заводит дружбу с гопниками. Один из них — 14-летний Марат — становится проводником Андрея в сложноустроенный мир улиц.</p> 
+            </div> 
+        </article> 
+
+          <article class="portfolio__item"> 
+            <h2 class="portfolio__item_title">Офис</h2> 
+            <div class="portfolio__item_website"> 
+                <p class="portfolio__item_url-heading">url</p> 
+                <a class="portfolio__item_link" href="https://www.kinopoisk.ru/series/253245/">Кинопоиск</a> 
+            </div> 
+            <img class="portfolio__item_image" src="./img/ofice.png"> 
+            <div> 
+                <p class="portfolio__item_paragraph">Сериал о трудовых буднях небольшого регионального офиса крупной компании, обитатели которого целыми днями должны терпеть закидоны своего непутевого босса.</p>
+            </div> 
+        </article> 
+        </section>
+
+        <h1 class="work__title" id="films">Фильмы</h1>
+        <section class="portfolio">
+          <article class="portfolio__item"> 
+            <h2 class="portfolio__item_title">Дурак</h2> 
+            <div class="portfolio__item_website"> 
+                <p class="portfolio__item_url-heading">url</p> 
+                <a class="portfolio__item_link" href="https://www.kinopoisk.ru/film/808639/">Кинопоиск</a> 
+            </div> 
+            <img class="portfolio__item_image" src="./img/durak.png"> 
+            <div> 
+                <p class="portfolio__item_paragraph">Жизни 800 человек общежития висят буквально на волоске из-за безразличия местных властей. В любую секунду здание может рухнуть. И кто бы мог подумать, что судьбы людей окажутся в руках простого сантехника. Но удастся ли ему что-то изменить и предотвратить катастрофу?</p>
+            </div> 
+        </article> 
+
+          <article class="portfolio__item"> 
+            <h2 class="portfolio__item_title">Легенда №17</h2> 
+            <div class="portfolio__item_website"> 
+                <p class="portfolio__item_url-heading">url</p> 
+                <a class="portfolio__item_link" href="https://www.kinopoisk.ru/film/601564/">Кинопоиск</a> 
+            </div> 
+            <img class="portfolio__item_image" src="./img/legend.png"> 
+            <div> 
+                <p class="portfolio__item_paragraph">История жизни хоккеиста Валерия Харламова.</p>
+            </div> 
+        </article> 
+        </section>
+      </main>
+      <footer>
+        <section class="footer footer__work">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3 col-6">
+                <h6 class="footer__title">Наш адрес</h6>
+                <p> г.Москва, ул. Фрунзенская, д.10</p>
+              </div>
+              <div class="col-md-3 col-6">
+                <h6 class="footer__title">Время работы</h6>
+                <p>пн-вс: 12:00-22:00</p>
+              </div>
+              <div class="col-md-3 col-6">
+                <h6 class="footer__title">Наши соцсети</h6>
+                <ul class="list-unstyled">
+                  <li><a class="footer__link" href="https://www.youtube.com/watch?v=m-isyyvazig">Youtube</a></li>
+                  <li><a class="footer__link" href="https://t.me/vladfilippov58">Telegram</a></li>
+                  <li><a class="footer__link" href="mailto:zrumancev62@gmail.com">Gmail</a></li>
+                </ul>
+              </div>
+              <div class="col-md-3 col-6">
+                <h6 class="footer__title">Контакты</h6>
+                <ul class="list-unstyled">
+                  <li><a class="footer__link" href="tel:89853891912">+79323455858</a> - отдел продаж</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+      </footer>
+
+  
+      
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

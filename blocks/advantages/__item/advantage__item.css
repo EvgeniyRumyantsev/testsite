@@ -1,0 +1,18 @@
+.advantages__item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: auto;
+    width: 35%;
+    background-color: #577857;
+    border-radius: 5%;
+    /* border: 1px solid red; */
+}
+
+@media screen and (max-width: 620px) {
+    .advantages__item {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }    
+}

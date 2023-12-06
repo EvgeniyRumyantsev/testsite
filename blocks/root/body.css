@@ -1,0 +1,21 @@
+.body {
+    background-color: rgb(255, 255, 255, 0.55);
+    height: auto;
+    min-width: 320px;
+    font-family: 'Nova Square', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+.body__equipment {
+    background-color: #003153;
+}
+
+.body__work {
+    background-color: #2A2C2F; 
+    color: #ffffff;
+}
+@media screen and (max-width: 335px) {
+   h1 {
+    font-size: calc(1.2rem + 1.5vw);
+   }
+}

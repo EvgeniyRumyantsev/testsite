@@ -1,0 +1,39 @@
+@import url(../blocks/navbar-brand/__logo/navbar-brand__logo.css);
+@import url(../blocks/root/body.css);
+@import url(../blocks/main/__title/main__title.css);
+
+@import url(../blocks/carousel/carousel.css);
+@import url(../blocks/carousel/__image/carousel__image.css);
+
+@import url(../blocks/advantages/advantages.css);
+@import url(../blocks/advantages/__items/advantages__items.css);
+@import url(../blocks/advantages/__item/_logo/advantages__item_logo.css);
+@import url(../blocks/advantages/__item/_text/advantages__item_text.css);
+@import url(../blocks/advantages/__title/advantages__title.css);
+@import url(../blocks/advantages/__item/advantage__item.css);
+@import url(../blocks/advantages/__item/_title/advantages__item_title.css);
+
+@import url(../blocks/equipment/equipment.css);
+@import url(../blocks/equipment/__card/equipment__card.css);
+@import url(../blocks/equipment/__card/_image/equipment__card_image.css);
+@import url(../blocks/equipment/__card/_title/equipment__card_title.css);
+@import url(../blocks/equipment/__items/equpment__items.css);
+@import url(../blocks/equipment/__title/equipment__title.css);
+
+@import url(../blocks/portfolio/__item/porfolio__item.css);
+@import url(../blocks/portfolio/portfolio.css);
+@import url(../blocks/portfolio/__item/_image/portfolio__item_image.css);
+@import url(../blocks/portfolio/__item/_link/portfolio__item_link.css);
+@import url(../blocks/portfolio/__item/_paragraph/portfolio__item_paragraph.css);
+@import url(../blocks/portfolio/__item/_url-heading/portfolio__item_url-heading.css);
+@import url(../blocks/portfolio/__item/_website/portfolio__item_website.css);
+@import url(../blocks/portfolio/__item/title/portfolio__item_title.css);
+
+@import url(../blocks/work/work.css);
+@import url(../blocks/work/__title/work__title.css);
+
+@import url(../blocks/form/form.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__link/footer__link.css);

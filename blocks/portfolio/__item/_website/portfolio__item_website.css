@@ -1,0 +1,11 @@
+.portfolio__item_website {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: flex-end; 
+}
+
+@media screen and (max-width:767px) { 
+    .portfolio__item_website {
+        display: none;
+    }
+} 
